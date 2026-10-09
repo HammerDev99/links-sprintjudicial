@@ -1,0 +1,5 @@
+# No publicar archivos del repo ni del sistema: COPY . copia todo a la raíz web
+.git
+.dockerignore
+Dockerfile
+**/.DS_Store

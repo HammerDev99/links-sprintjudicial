@@ -15,7 +15,7 @@ RUN echo 'server { \
         try_files $uri $uri/ $uri.html /index.html; \
     } \
     \
-    location ~* \.(css|js|png|jpg|jpeg|gif|ico|svg)$ { \
+    location ~* \.(css|js|png|jpg|jpeg|gif|ico|svg|woff2)$ { \
         expires 1y; \
         add_header Cache-Control "public, immutable"; \
     } \
